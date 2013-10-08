@@ -9,7 +9,7 @@ Simple gaming message presentation ala 8-bit text cutscenes. Simple to showcase 
 
 ```
   GMSMessageWindow *window = [GMSMessageWindow windowWithMessage:aMessageToDisplay
-                                                              font:[GMSAppManager gameFont]
+                                                              font:@"helvetica"
                                                           fontSize:20.0f
                                                          fontColor:[UIColor whiteColor]
                                                           duration:1

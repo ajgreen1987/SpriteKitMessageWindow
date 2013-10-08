@@ -12,7 +12,7 @@ Simple gaming message presentation ala 8-bit text cutscenes. Simple to showcase 
                                                               font:[GMSAppManager gameFont]
                                                           fontSize:20.0f
                                                          fontColor:[UIColor whiteColor]
-                                                          duration:1.5f
+                                                          duration:1
                                                    backgroundImage:@"messageWindow"
                                                            delegate:nil];
     

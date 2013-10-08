@@ -7,7 +7,8 @@ Simple gaming message presentation ala 8-bit text cutscenes. Simple to showcase 
 
 2) Create and position your instance and then add to your scene.
 
-GMSMessageWindow *window = [GMSMessageWindow windowWithMessage:aMessageToDisplay
+```
+  GMSMessageWindow *window = [GMSMessageWindow windowWithMessage:aMessageToDisplay
                                                               font:[GMSAppManager gameFont]
                                                           fontSize:20.0f
                                                          fontColor:[UIColor whiteColor]
@@ -18,6 +19,7 @@ GMSMessageWindow *window = [GMSMessageWindow windowWithMessage:aMessageToDisplay
     window.position = CGPointMake(CGRectGetMidX(screenRect), CGRectGetMidY(screenRect));
     
     [self addChild:window];
+```
     
 3) Enjoy!
 

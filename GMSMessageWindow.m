@@ -31,7 +31,7 @@
     
     toReturn.userInteractionEnabled = YES;    
     toReturn.zPosition = 100.0f;
-    toReturn.name = @"MESSAGE_NAME";
+    toReturn.name = MESSAGE_NAME;
     toReturn.delegate = delegate;
     
     __block int counter = 0;
@@ -80,7 +80,7 @@
     
     toReturn.userInteractionEnabled = YES;
     toReturn.zPosition = 100.0f;
-    toReturn.name = @"MESSAGE_NAME";
+    toReturn.name = MESSAGE_NAME;
     toReturn.delegate = delegate;
     
     __block int counter = 0;

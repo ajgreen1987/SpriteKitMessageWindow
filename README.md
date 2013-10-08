@@ -1,13 +1,13 @@
 SpriteKitMessageWindow
 ======================
 
-Simple gaming message presentation
-
-To Implement:
+Simple gaming message presentation ala 8-bit text cutscenes. Simple to showcase SKActions on SKLabelNodes.
 
 1) #import "GMSMessageWindow.h"
 
-2) GMSMessageWindow *window = [GMSMessageWindow windowWithMessage:aMessageToDisplay
+2) Create and position your instance and then add to your scene.
+
+GMSMessageWindow *window = [GMSMessageWindow windowWithMessage:aMessageToDisplay
                                                               font:[GMSAppManager gameFont]
                                                           fontSize:20.0f
                                                          fontColor:[UIColor whiteColor]
